@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+
+  "./sample01"
+)
 
 func main() {
-	fmt.Println("Hello, 世界")
+  s1 := sample01.HelloWorld("hoge")
+  fmt.Println(s1)
 }
